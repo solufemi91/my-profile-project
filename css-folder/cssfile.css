@@ -37,3 +37,18 @@ background-color: blue;
 padding-top: 70px;
 padding-bottom: 70px;
 }
+
+@media screen and (max-width: 680px){
+  #page2{
+
+    background-color: blue;
+  }
+  #page3{
+
+  background-color:green;
+}
+#banner{
+
+  color:red;
+}
+}
