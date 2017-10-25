@@ -1,0 +1,19 @@
+header{
+
+  background-color: red;
+  height: 50px;
+  text-align: center;
+
+
+}
+
+.links{
+  display: inline-block;
+  padding: 16px;
+}
+
+img{
+  height: 416px;
+  width: 1364px;
+
+}
