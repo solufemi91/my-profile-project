@@ -14,6 +14,26 @@ header{
 
 img{
   height: 416px;
-  width: 1364px;
+  width: 100%;
 
+}
+
+#banner{
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 91px;
+  border: 1px solid gray;
+}
+
+#page2{
+background-color: green;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+#page3{
+background-color: blue;
+padding-top: 70px;
+padding-bottom: 70px;
 }
