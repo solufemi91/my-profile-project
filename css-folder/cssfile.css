@@ -43,6 +43,13 @@ padding-top: 70px;
 padding-bottom: 70px;
 }
 
+#page4{
+  background-color: gold;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
 @media screen and (max-width: 680px){
   #page2{
 
