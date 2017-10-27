@@ -1,0 +1,99 @@
+
+.container{
+  
+  background-color: yellow;
+}
+
+nav{
+
+  background-color: green;
+  height: 50px;
+  text-align: center;
+
+
+}
+
+.btn-default{
+ margin-top: 8px;
+ color: green;
+ background-color: yellow;
+}
+
+
+ #newcastle{
+  height: 416px;
+  width: 100%;
+
+}
+
+ #banner{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 91px;
+  font-family: verdana;
+  border: 1px solid gray;
+}
+
+ #page2{
+  background-color: green;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h2{
+  font-family: arial;
+}
+
+.about{
+  font-family: arial;
+  color: yellow;
+  padding: 4px;
+}
+
+.experience{
+  font-family: arial;
+  color: green;
+}
+
+.contact{
+  font-family: arial;
+  color: yellow;
+}
+
+#page3{
+ background-color: yellow;
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
+
+#page4{
+ background-color: green;
+ padding-top: 25px;
+ padding-bottom: 25px;
+
+}
+
+img {
+ height: 125px;
+ width: 92px;
+ display: block;
+ margin: auto;
+ padding-top: 43px;
+}
+
+footer{
+ background-color:silver;
+}
+
+@media screen and (max-width: 850px){
+
+ .btn-default{
+  display:block;
+
+}
+
+ nav{
+   height: 200px;
+ }
+}
