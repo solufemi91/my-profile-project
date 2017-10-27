@@ -1,66 +1,99 @@
 
 .container{
-  height:2000px;
+  
+  background-color: yellow;
 }
 
-header{
+nav{
 
-  background-color: red;
+  background-color: green;
   height: 50px;
   text-align: center;
 
 
 }
 
-.links{
-  display: inline-block;
-  padding: 16px;
+.btn-default{
+ margin-top: 8px;
+ color: green;
+ background-color: yellow;
 }
 
-img{
+
+ #newcastle{
   height: 416px;
   width: 100%;
 
 }
 
-#banner{
+ #banner{
   text-align: center;
-  color: gray;
+  color: green;
   font-weight: bold;
   font-size: 91px;
+  font-family: verdana;
   border: 1px solid gray;
 }
 
-#page2{
-background-color: green;
-padding-top: 70px;
-padding-bottom: 70px;
+ #page2{
+  background-color: green;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h2{
+  font-family: arial;
+}
+
+.about{
+  font-family: arial;
+  color: yellow;
+  padding: 4px;
+}
+
+.experience{
+  font-family: arial;
+  color: green;
+}
+
+.contact{
+  font-family: arial;
+  color: yellow;
 }
 
 #page3{
-background-color: blue;
-padding-top: 70px;
-padding-bottom: 70px;
+ background-color: yellow;
+ padding-top: 25px;
+ padding-bottom: 25px;
 }
 
 #page4{
-  background-color: gold;
-  padding-top: 70px;
-  padding-bottom: 70px;
+ background-color: green;
+ padding-top: 25px;
+ padding-bottom: 25px;
 
 }
 
-@media screen and (max-width: 680px){
-  #page2{
-
-    background-color: blue;
-  }
-  #page3{
-
-  background-color:green;
+img {
+ height: 125px;
+ width: 92px;
+ display: block;
+ margin: auto;
+ padding-top: 43px;
 }
-#banner{
 
-  color:red;
+footer{
+ background-color:silver;
 }
+
+@media screen and (max-width: 850px){
+
+ .btn-default{
+  display:block;
+
+}
+
+ nav{
+   height: 200px;
+ }
 }

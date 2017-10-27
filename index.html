@@ -3,36 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>My profile page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css-folder/cssfile.css">
   </head>
   <body>
     <div class="container">
-      <header>
-        <a class="links"href="#page2">About</a>
-        <a class="links"href="#page3">Experience</a>
-        <a class="links"href="#page4">Contact</a>
-        <a class="links"href="#">Interest</a>
-      </header>
-      <img src="./st-james-hero-image.jpg" alt="picture not avaliable">
+      <nav>
+        <a class="btn btn-default" href="#page2" role="button">About</a>
+        <a class="btn btn-default" href="#page3" role="button">Experience</a>
+        <a class="btn btn-default" href="#page4" role="button">Contact</a>
+        <a class="btn btn-default" href="#page5" role="button">Social Media</a>
+      </nav>
+      <img id="newcastle"src="./st-james-hero-image.jpg" alt="picture not avaliable">
       <div id="banner">
         Welcome to Steven's Profile
-
       </div>
       <section id="page2">
-        <h2>About me</h2>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h2 class="about">About me</h2>
+        <p class="about">
+          I am a strong problem solver, using my logical approach to arrive at conclusions.  During my experience as a data validator, I developed an interest in software when I noticed the flaws of the various software systems used to deliver healthcare services. I looked at ways in which they could be developed and improved and started to learn Java in my spare time. I learnt about object oriented development, web programming, JDBC as well as how to use IDEs such as Eclipse. My interest in technology and its impact on the effective delivery of services led me to want to pursue a career in software development.
+        </p>
+        <p class="about">
+          My strengths is my adaptability, for example as a NHS data validator at various hospitals I had to learn how to use many different software systems to aid in the delivery of healthcare services. I also had to adapt to a variety of working environments. This experience also developed my problem solving skills by applying NHS referral to treatment rules to patient pathway situations in order to determine the correct codes to enter into hospitals’ database systems. I am a very good communicator and this is something that was developed during my degree as I participated in mooting competitions and during my time as a street fundraiser for the British Red Cross.  As naturally enthusiastic and disciplined  person, I am always pushing himself to learn new things, for example I undertook Physics GCSE on my own and achieved an A*.
+        </p>
       </section>
       <section id="page3">
-        <h2>Experience</h2>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </section>
-      <section id="page4">
-        <h2>Contact</h2>
-        <p>Mobile number: 012345678</p>
-        <p>Email: abc@hotmail.com</p>
-        <p>Address :45 imaginary road</p>
+        <h2 class="experience">Experience</h2>
+        <h3 class="experience">Diana, Princess of Wales Hospital
+          Grimsby					February 2017 – April 2017
+          Data Validator (contractor)</h3>
+        <ul class="experience">
+          <li>Ensuring  that the hospitals’ datawarehouse system accurately reported the waiting times that patients were waiting for treatment</li>
+          <li>Using specialist software and entering codes working to daily targets for validation.</li>
+          <li>Analysis of clinical notes to understand the actions and assign correct codes.</li>
+          <li>Knowledge of SQL, JAVA, Spring framework, Eclipse IDE</li>
+        </ul>
+        <h3 class="experience">Skills</h3>
+        <ul class="experience">
+          <li>JAVA Spring Framework</li>
+          <li>JAVA</li>
+          <li>Javascript</li>
+          <li>Eclipse IDE</li>
+        </ul>
 
       </section>
+      <section id="page4">
+        <h2 class="contact">Contact</h2>
+        <ul class="contact">
+         <li>Mobile number: 07399314522</li>
+         <li>Email: solufemi-olukanni@hotmail.com</li>
+         <li>Address: 45 imaginary road, Wonderland,DE6 4AJ </li>
+       </ul>
+
+      </section>
+      <footer id="page5">
+       <a href="https://www.instagram.com/?hl=en">
+        <img id="instagram"src="ig-logo-email.png" alt="no photo avaliable">
+       </a>
+       <a href="https://en-gb.facebook.com/">
+        <img id="facebook"src="fb-art.png" alt="no photo avaliable">
+       </a>
+       <a href="https://twitter.com/login?lang=en-gb">
+        <img id="twitter"src="twitterlogo_1x.png" alt="no photo avaliable">
+       </a>
+      </footer>
 
     </div>
 
